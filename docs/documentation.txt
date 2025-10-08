@@ -1,0 +1,42 @@
+Proyecto: Demo Repository
+
+Descripción:
+Este proyecto es un repositorio de prueba que incluye configuraciones básicas de automatización (GitHub Actions), estructura de carpetas para código fuente en PHP, pruebas, y documentación.
+
+Estructura del Proyecto:
+├── .github/workflows/         # Workflows de GitHub Actions (CI/CD)
+│   ├── auto-assign.yml        # Asignación automática de issues o PRs
+│   └── proof-html.yml         # Workflow de prueba para HTML (placeholder)
+│
+├── docs/
+│   └── documentation.txt      # Archivo de documentación del proyecto (antes books.txt)
+│
+├── src/
+│   └── config.php             # Archivo de configuración principal en PHP
+│
+├── tests/                     # Carpeta destinada a pruebas (actualmente vacía o en desarrollo)
+│
+└── README.md                  # Documentación principal del repositorio
+
+Requisitos:
+- PHP 7.4 o superior
+- Composer (si se agregan dependencias en el futuro)
+
+Instrucciones para uso:
+1. Clona el repositorio:
+   git clone https://github.com/Joel-Iker/demo-repository.git
+
+2. Navega al proyecto:
+   cd demo-repository
+
+3. (Opcional) Configura el archivo `src/config.php` según tus necesidades.
+
+Automatización:
+- El repositorio incluye dos workflows de GitHub Actions para ayudar con asignaciones automáticas y pruebas HTML.
+- Puedes personalizar los YAML según los requisitos de tu equipo o CI/CD.
+
+Licencia:
+Este proyecto se distribuye bajo la licencia MIT.
+
+Autores:
+Joel Guerrero - Iker Fernandez
